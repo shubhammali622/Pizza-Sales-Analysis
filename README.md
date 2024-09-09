@@ -26,37 +26,37 @@ The dataset used for this analysis contains detailed information on pizza orders
 
 2. Average Order Value
 
-Query: SELECT SUM(total_price)/ COUNT(DISTINCT order_id) AS Avg_Order_Value FROM pizza_sales
+- Query: SELECT SUM(total_price)/ COUNT(DISTINCT order_id) AS Avg_Order_Value FROM pizza_sales
 
-Insight: Measures the average revenue per order.
+- Insight: Measures the average revenue per order.
 
 3. Total Pizza Sold
 
-Query: SELECT SUM(quantity) AS Total_Pizza_Sold FROM pizza_sales
+- Query: SELECT SUM(quantity) AS Total_Pizza_Sold FROM pizza_sales
 
-Insight: Total number of pizzas sold across all orders.
+- Insight: Total number of pizzas sold across all orders.
 
 4. Total Orders
 
-Query: SELECT COUNT(DISTINCT order_id) AS Total_Orders FROM pizza_sales
+-  Query: SELECT COUNT(DISTINCT order_id) AS Total_Orders FROM pizza_sales
 
-Insight: Provides the total number of distinct orders.
+- Insight: Provides the total number of distinct orders.
 
 5. Average Pizza Per Order
 
-Query: Calculates the average number of pizzas per order.
+- Query: Calculates the average number of pizzas per order.
 
 6. Daily and Monthly Trends
 
-Query: Provides insights into total orders by day of the week and by month to identify peak periods.
+- Query: Provides insights into total orders by day of the week and by month to identify peak periods.
 
 7. Sales by Pizza Category and Size
 
-Query: Analyzes the percentage of total sales by pizza category and size to identify which types of pizzas are most popular.
+-  Query: Analyzes the percentage of total sales by pizza category and size to identify which types of pizzas are most popular.
 
 8. Top and Bottom Selling Pizzas
 
-Queries: Returns the top 5 and bottom 5 pizzas by revenue, quantity, and total orders.
+-  Queries: Returns the top 5 and bottom 5 pizzas by revenue, quantity, and total orders.
 
 ## Technologies Used
 
