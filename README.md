@@ -20,9 +20,9 @@ The dataset used for this analysis contains detailed information on pizza orders
 
 1. Total Revenue
 
-Query: SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales
+- Query: SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales
 
-Insight: Calculates the total revenue generated from pizza sales.
+- Insight: Calculates the total revenue generated from pizza sales.
 
 2. Average Order Value
 
@@ -60,8 +60,9 @@ Queries: Returns the top 5 and bottom 5 pizzas by revenue, quantity, and total o
 
 ## Technologies Used
 
-SQL: All analysis is performed using SQL queries to explore and analyze the data.
-Database: Assumes the use of a relational database like SQL Server or MySQL to store and query the data.
+- SQL: All analysis is performed using SQL queries to explore and analyze the data.
+
+- Database: Assumes the use of a relational database like SQL Server or MySQL to store and query the data.
 
 ## Conclusion
 
