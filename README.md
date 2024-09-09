@@ -1,10 +1,10 @@
 # Pizza-Sales-Analysis
 
-# Project Overview
+## Project Overview
 
 This project involves analyzing pizza sales data to uncover trends and insights that can help the business optimize performance. The analysis focuses on key metrics such as total revenue, top-selling pizzas, sales by category and size, and order trends. The goal is to provide actionable insights for improving sales strategies and operational efficiency.
 
-# Dataset
+## Dataset
 
 The dataset used for this analysis contains detailed information on pizza orders, including:
 
@@ -16,7 +16,7 @@ The dataset used for this analysis contains detailed information on pizza orders
 - quantity: Number of pizzas sold
 - total_price: Total price of the order
 
-# Key Metrics and Queries
+## Key Metrics and Queries
 
 1. Total Revenue
 
@@ -58,11 +58,11 @@ Query: Analyzes the percentage of total sales by pizza category and size to iden
 
 Queries: Returns the top 5 and bottom 5 pizzas by revenue, quantity, and total orders.
 
-# Technologies Used
+## Technologies Used
 
 SQL: All analysis is performed using SQL queries to explore and analyze the data.
 Database: Assumes the use of a relational database like SQL Server or MySQL to store and query the data.
 
-# Conclusion
+## Conclusion
 
 The Pizza Sales analysis reveals critical insights into customer preferences, peak sales periods, and the most and least popular pizzas. These findings can guide decisions related to inventory management, promotions, and product offerings, ultimately driving revenue growth.
